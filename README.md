@@ -1,6 +1,5 @@
 <div align="center">
 
-# **Q-CLIP**
 
 ### **Unleashing the Power of Vision-Language Models for Video Quality Assessment through Unified Cross-Modal Adaptation**
 
