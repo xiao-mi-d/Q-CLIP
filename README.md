@@ -59,7 +59,7 @@ python train.py -o options/pretrain/qclip_lsvq.yml --device cuda:0
 Alternatively, set `DATA_ROOT` for a single command:
 
 ```bash
-DATA_ROOT=/volume/miyachun/QADatasets/VQADatasets python train.py --opt options/pretrain/qclip_lsvq.yml --device cuda:1
+DATA_ROOT=/path/to/VQADatasets python train.py --opt options/pretrain/qclip_lsvq.yml --device cuda:1
 ```
 
 Fine-tune on KoNViD-1k:
