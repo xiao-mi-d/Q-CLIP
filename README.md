@@ -93,7 +93,7 @@ This project is built on top of Meta's [Perception Models](https://github.com/fa
 ## Citation
 
 ```bibtex
-@inproceedings{anonymous2026qclip,
+@inproceedings{2026qclip,
 title={Q-{CLIP}: Unleashing the Power of Vision-Language Models for Video Quality Assessment through Unified Cross-Modal Adaptation},
 author={Yachun Mi and Yu Li and Yanting Li and Chen Hui and Tong Zhang and Zhixuan Li and Chenyue Song and Wei Yang Bryan Lim and Shaohui Liu},
 booktitle={Forty-third International Conference on Machine Learning},
