@@ -1,8 +1,16 @@
-# Q-CLIP
+<div align="center">
 
-Official code organization for **Q-CLIP: Unleashing the Power of Vision-Language Models for Video Quality Assessment through Unified Cross-Modal Adaptation**.
+# **Q-CLIP**
 
-[Yachun Mi](https://openreview.net/profile?id=~Yachun_Mi1), [Yu Li](https://openreview.net/profile?id=~Yu_Li26), [Yanting Li](https://openreview.net/profile?id=~Yanting_Li3), [Chen Hui](https://openreview.net/profile?id=~Chen_Hui1), [Tong Zhang](https://openreview.net/profile?id=~Tong_Zhang38), [Zhixuan Li](https://openreview.net/profile?id=~Zhixuan_Li1), [Chenyue Song](https://openreview.net/profile?id=~Chenyue_Song1), [Wei Yang Bryan Lim](https://openreview.net/profile?id=~Wei_Yang_Bryan_Lim1), [Shaohui Liu](https://openreview.net/profile?id=~Shaohui_Liu2)
+### **Unleashing the Power of Vision-Language Models for Video Quality Assessment through Unified Cross-Modal Adaptation**
+
+Yachun Mi<sup>1,2</sup>, Yu Li<sup>1</sup>, Yanting Li<sup>1</sup>, Chen Hui<sup>3</sup>, Tong Zhang<sup>1</sup>, Zhixuan Li<sup>2</sup>, Chenyue Song<sup>1</sup>, Wei Yang Bryan Lim<sup>2</sup>, Shaohui Liu<sup>1</sup>
+
+<sup>1</sup> School of Computer Science and Technology, Harbin Institute of Technology, Harbin, China  
+<sup>2</sup> College of Computing and Data Science, Nanyang Technological University, Singapore  
+<sup>3</sup> School of Artificial Intelligence, Nanjing University of Information Science and Technology, Nanjing, China
+
+</div>
 
 Q-CLIP is a fully CVLM-based VQA framework built on Perception Encoder (PE). The model freezes the PE backbone and trains lightweight Shared Cross-Modal Adapters (SCMA), learnable five-level quality prompts, and a final quality regressor.
 
