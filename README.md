@@ -2,6 +2,8 @@
 
 Official code organization for **Q-CLIP: Unleashing the Power of Vision-Language Models for Video Quality Assessment through Unified Cross-Modal Adaptation**.
 
+[Yachun Mi](https://openreview.net/profile?id=~Yachun_Mi1), [Yu Li](https://openreview.net/profile?id=~Yu_Li26), [Yanting Li](https://openreview.net/profile?id=~Yanting_Li3), [Chen Hui](https://openreview.net/profile?id=~Chen_Hui1), [Tong Zhang](https://openreview.net/profile?id=~Tong_Zhang38), [Zhixuan Li](https://openreview.net/profile?id=~Zhixuan_Li1), [Chenyue Song](https://openreview.net/profile?id=~Chenyue_Song1), [Wei Yang Bryan Lim](https://openreview.net/profile?id=~Wei_Yang_Bryan_Lim1), [Shaohui Liu](https://openreview.net/profile?id=~Shaohui_Liu2)
+
 Q-CLIP is a fully CVLM-based VQA framework built on Perception Encoder (PE). The model freezes the PE backbone and trains lightweight Shared Cross-Modal Adapters (SCMA), learnable five-level quality prompts, and a final quality regressor.
 
 ## Structure
@@ -87,7 +89,7 @@ This project is built on top of Meta's [Perception Models](https://github.com/fa
 ```bibtex
 @inproceedings{anonymous2026qclip,
 title={Q-{CLIP}: Unleashing the Power of Vision-Language Models for Video Quality Assessment through Unified Cross-Modal Adaptation},
-author={Anonymous},
+author={Yachun Mi and Yu Li and Yanting Li and Chen Hui and Tong Zhang and Zhixuan Li and Chenyue Song and Wei Yang Bryan Lim and Shaohui Liu},
 booktitle={Forty-third International Conference on Machine Learning},
 year={2026},
 url={https://openreview.net/forum?id=zmAMq09bFs}
