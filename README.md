@@ -84,9 +84,16 @@ This project is built on top of Meta's [Perception Models](https://github.com/fa
 
 ## Citation
 
-If you use the PE backbone, please also cite the Perception Encoder paper:
-
 ```bibtex
+@inproceedings{
+anonymous2026qclip,
+title={Q-{CLIP}: Unleashing the Power of Vision-Language Models for Video Quality Assessment through Unified Cross-Modal Adaptation},
+author={Anonymous},
+booktitle={Forty-third International Conference on Machine Learning},
+year={2026},
+url={https://openreview.net/forum?id=zmAMq09bFs}
+}
+
 @article{bolya2025PerceptionEncoder,
   title={Perception Encoder: The best visual embeddings are not at the output of the network},
   author={Daniel Bolya and Po-Yao Huang and Peize Sun and Jang Hyun Cho and Andrea Madotto and Chen Wei and Tengyu Ma and Jiale Zhi and Jathushan Rajasegaran and Hanoona Rasheed and Junke Wang and Marco Monteiro and Hu Xu and Shiyu Dong and Nikhila Ravi and Daniel Li and Piotr Doll{\'a}r and Christoph Feichtenhofer},
