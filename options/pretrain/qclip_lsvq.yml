@@ -1,0 +1,56 @@
+name: qclip_lsvq
+seed: 42
+num_epochs: 8
+warmup_epochs: 1
+save_model: true
+output_dir: pretrained_weights
+batch_size: 12
+val_batch_size: 1
+num_workers: 8
+
+model:
+  pe_config: PE-Core-L14-336
+  checkpoint_path: ./pretrained_weights/PE-Core-L14-336.pt
+  shared_dim: 128
+  adapter_start_layer: 18
+  num_context_tokens: 3
+
+data:
+  train:
+    type: QCLIPVideoDataset
+    args:
+      phase: train
+      anno_file: ./data_labels/LSVQ/labels.txt
+      data_prefix: ${DATA_ROOT}/LSVQ
+
+  val-livevqc:
+    type: QCLIPVideoDataset
+    args:
+      phase: test
+      anno_file: ./data_labels/LIVE_VQC/labels.txt
+      data_prefix: ${DATA_ROOT}/LIVE-VQC/data
+
+  val-kv1k:
+    type: QCLIPVideoDataset
+    args:
+      phase: test
+      anno_file: ./data_labels/KoNViD/labels.txt
+      data_prefix: ${DATA_ROOT}
+
+  val-ltest:
+    type: QCLIPVideoDataset
+    args:
+      phase: test
+      anno_file: ./data_labels/LSVQ/labels_test.txt
+      data_prefix: ${DATA_ROOT}/LSVQ
+
+  val-l1080p:
+    type: QCLIPVideoDataset
+    args:
+      phase: test
+      anno_file: ./data_labels/LSVQ/labels_1080p.txt
+      data_prefix: ${DATA_ROOT}/LSVQ
+
+optimizer:
+  lr: 1.0e-3
+  wd: 1.0e-4
