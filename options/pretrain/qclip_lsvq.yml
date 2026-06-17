@@ -20,7 +20,7 @@ data:
     type: QCLIPVideoDataset
     args:
       phase: train
-      anno_file: ./data_labels/LSVQ/labels.txt
+      anno_file: ./data_labels/LSVQ/train_labels.txt
       data_prefix: ${DATA_ROOT}/LSVQ
 
   val-livevqc:
