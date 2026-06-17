@@ -49,7 +49,6 @@ Download [PE-Core-L14-336.pt](https://huggingface.co/facebook/PE-Core-L14-336/bl
 pretrained_weights/PE-Core-L14-336.pt
 ```
 
-Large model weights are ignored by git.
 
 ## Training
 
